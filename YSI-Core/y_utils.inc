@@ -81,10 +81,10 @@ Variables:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Storage\y_amx"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Storage\y_amx"
 //#tryinclude <sscanf>
 
 #include "..\amx\asm"
@@ -97,7 +97,7 @@ Variables:
 	#define File,Float, Float,File
 #endif*/
 // Add new tags to the START of this list.
-#include "..\YSI-Internal\y_globaltags"
+#include "..\YSI_Internal\y_globaltags"
 
 // VERY VERY VERY IMPORTANT!!! y_inline uses "130" instead of "YSI_MAX_STRING"
 // for two lines (one is "520" for "130 * 4").
@@ -883,4 +883,4 @@ stock ftouch(const filename[])
 	}
 }
 
-#include "..\YSI-Coding\y_va"
+#include "..\YSI_Coding\y_va"
