@@ -1,3 +1,40 @@
+# y_utils
+
+General useful functions used throughout YSI.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_utils-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Core/y_utils)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Core/y_utils
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Core/y_utils>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Core/y_utils/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Core/y_utils/features.md) - More features and examples.
+* [FAQs](YSI-Core/y_utils/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Core/y_utils/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Core/y_utils/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_utils
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_utils-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Core/y_utils)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Core/y_utils
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Core/y_utils>
-```
-
-## Usage
-
-[Click Here] (YSI-Core/y_utils.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
